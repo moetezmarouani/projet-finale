@@ -1,0 +1,29 @@
+.momo-photo {
+    width: 100px;
+    height: 10vh;
+    border-radius: 100%;
+}
+.nav-link {
+ margin-left: 5px;
+ margin-right: 5px;
+ font-size: 20px;
+}
+.collapse {
+    justify-content: space-around;
+}
+.container-fluid {
+    background-color:rgb(211, 56, 9);
+    border-radius: 10%;
+}
+#carouselExampleIndicators {
+    width: 80vw;
+    height: 75vh;
+    margin-left: 140px;
+    margin-bottom: 20px;
+}
+@media (max-width: 314px) {
+    .momo-photo {
+        display: none;
+    }
+}
+
